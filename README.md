@@ -1,3 +1,3 @@
 # txteditor
-A editor written in c plus plus  
+A editor written in C++
 Input 'exit' to close
