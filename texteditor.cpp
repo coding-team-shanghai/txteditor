@@ -12,23 +12,23 @@ void qk()
 }
 int main()
 {
-	system("title ÎÄ±¾±à¼­Æ÷");
+	system("title æ–‡æœ¬ç¼–è¾‘å™¨");
 	string cnt;
 	bool flag=false;
 	int sum=1;
-	cout<<"ÇëÊäÈëÎÄ¼şÃû"<<endl;
+	cout<<"è¯·è¾“å…¥æ–‡ä»¶å"<<endl;
 	cin>>file;
 	strcat(file,".txt");
 	ifstream fin(file);
 	if(fin)
 	{
-		if(MessageBox(NULL,"´ËÎÄ¼şÒÑ´æÔÚ£¬ÊÇ·ñÇå¿Õ£¿","ÌáÊ¾",MB_YESNO)==6)
+		if(MessageBox(NULL,"æ­¤æ–‡ä»¶å·²å­˜åœ¨ï¼Œæ˜¯å¦æ¸…ç©ºï¼Ÿ","æç¤º",MB_YESNO)==6)
 		{
 			qk();
 		}
 	}
 	ofstream fout(file,ios::app);
-	if(MessageBox(NULL,"ÊÇ·ñÆô¶¯±êĞĞÄ£Ê½£¿","Ñ¯ÎÊ",MB_YESNO)==6)
+	if(MessageBox(NULL,"æ˜¯å¦å¯åŠ¨æ ‡è¡Œæ¨¡å¼ï¼Ÿ","è¯¢é—®",MB_YESNO)==6)
 	{
 		flag=true;
 	}
@@ -36,7 +36,7 @@ int main()
 	{
 		if(cnt=="exit")
 		{
-			if(MessageBox(NULL,"ÊÇ·ñÍË³ö","ÌáÊ¾",MB_YESNO)==6)
+			if(MessageBox(NULL,"æ˜¯å¦é€€å‡º","æç¤º",MB_YESNO)==6)
 			{
 				return 0;
 			}
